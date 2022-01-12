@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.tyopo.verora.ui.Splash"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/ku" />
+    <fragment
+        android:id="@+id/startingFragment"
+
+        android:name="com.tyopo.verora.ui.Base"
+        android:label="fragment_starting"
+        tools:layout="@layout/gh" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.tyopo.verora.ui.B"
+        android:label="fragment_about"
+        tools:layout="@layout/bg" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.tyopo.verora.ui.A"
+        android:label="fragment_game"
+        tools:layout="@layout/fr" />
+</navigation>
